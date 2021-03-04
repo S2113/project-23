@@ -25,8 +25,6 @@ function setup() {
 
 	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.4,isStatic:true});
 	
-  
-	Body.setVelocity(packageBody,0,0);
 	World.add(world, packageBody);
 
 
