@@ -120,7 +120,7 @@ function mousePressed()
 
 	if(keyDown("DOWN_ARROW"))
 	{
-     //Body.setStatic(packageBody,false);
+      Matter.Body.setStatic(packageBody,false);
 	}
 	
 }
