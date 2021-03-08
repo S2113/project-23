@@ -118,7 +118,7 @@ function mousePressed()
 
 	if(keyDown("DOWN_ARROW"))
 	{
-      Matter.Body.setStatic(packageBody,false);
+      Matter.Body.translate(packageBody,{x:0,y:20});
 	}
 	
 }
